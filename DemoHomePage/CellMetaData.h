@@ -9,8 +9,8 @@
 #import <Foundation/Foundation.h>
 
 typedef enum{
-    NEWCAR,
-    USEDCAR,
+    NEWCAR = 0,
+    USEDCAR = 1,
 } CellType;
 
 @interface CellMetaData : NSObject

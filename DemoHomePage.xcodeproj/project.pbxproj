@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF86CF4E1B675E25004A6ADE /* NavigationBar.png in Resources */ = {isa = PBXBuildFile; fileRef = BF86CF4D1B675E25004A6ADE /* NavigationBar.png */; };
+		BF86CF511B675EA0004A6ADE /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = BF86CF4F1B675EA0004A6ADE /* logo.png */; };
+		BF86CF521B675EA0004A6ADE /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF86CF501B675EA0004A6ADE /* logo@2x.png */; };
+		BF86CF561B6784BB004A6ADE /* HomeUsedCarSearchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BF86CF541B6784BB004A6ADE /* HomeUsedCarSearchCell.m */; };
+		BF86CF571B6784BB004A6ADE /* HomeUsedCarSearchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF86CF551B6784BB004A6ADE /* HomeUsedCarSearchCell.xib */; };
+		BF86CF5A1B6787F6004A6ADE /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = BF86CF581B6787F6004A6ADE /* back.png */; };
+		BF86CF5B1B6787F6004A6ADE /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF86CF591B6787F6004A6ADE /* back@2x.png */; };
 		E519ACDB1B6276DE0058D4AF /* HomePage.m in Sources */ = {isa = PBXBuildFile; fileRef = E519ACD91B6276DE0058D4AF /* HomePage.m */; };
 		E519ACDC1B6276DE0058D4AF /* HomePage.xib in Resources */ = {isa = PBXBuildFile; fileRef = E519ACDA1B6276DE0058D4AF /* HomePage.xib */; };
 		E5C2D3461B62518900887341 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C2D3451B62518900887341 /* main.m */; };
@@ -45,6 +52,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF86CF4D1B675E25004A6ADE /* NavigationBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NavigationBar.png; sourceTree = "<group>"; };
+		BF86CF4F1B675EA0004A6ADE /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		BF86CF501B675EA0004A6ADE /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@2x.png"; sourceTree = "<group>"; };
+		BF86CF531B6784BB004A6ADE /* HomeUsedCarSearchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeUsedCarSearchCell.h; sourceTree = "<group>"; };
+		BF86CF541B6784BB004A6ADE /* HomeUsedCarSearchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeUsedCarSearchCell.m; sourceTree = "<group>"; };
+		BF86CF551B6784BB004A6ADE /* HomeUsedCarSearchCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeUsedCarSearchCell.xib; sourceTree = "<group>"; };
+		BF86CF581B6787F6004A6ADE /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		BF86CF591B6787F6004A6ADE /* back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@2x.png"; sourceTree = "<group>"; };
 		E519ACD81B6276DE0058D4AF /* HomePage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePage.h; sourceTree = "<group>"; };
 		E519ACD91B6276DE0058D4AF /* HomePage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePage.m; sourceTree = "<group>"; };
 		E519ACDA1B6276DE0058D4AF /* HomePage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomePage.xib; sourceTree = "<group>"; };
@@ -125,6 +140,11 @@
 		E5C2D3421B62518900887341 /* DemoHomePage */ = {
 			isa = PBXGroup;
 			children = (
+				BF86CF581B6787F6004A6ADE /* back.png */,
+				BF86CF591B6787F6004A6ADE /* back@2x.png */,
+				BF86CF4F1B675EA0004A6ADE /* logo.png */,
+				BF86CF501B675EA0004A6ADE /* logo@2x.png */,
+				BF86CF4D1B675E25004A6ADE /* NavigationBar.png */,
 				E5CED6AC1B66621400B45E4E /* navigate-right.png */,
 				E5CED6921B660D2E00B45E4E /* McGheean583.jpg */,
 				E5CED68B1B65F3EA00B45E4E /* 5543680-round-red-button-christmas-bell-icon.jpg */,
@@ -159,6 +179,9 @@
 				E5C2D3521B62518900887341 /* LaunchScreen.xib */,
 				E5C2D3431B62518900887341 /* Supporting Files */,
 				E5C2D3501B62518900887341 /* Images.xcassets */,
+				BF86CF531B6784BB004A6ADE /* HomeUsedCarSearchCell.h */,
+				BF86CF541B6784BB004A6ADE /* HomeUsedCarSearchCell.m */,
+				BF86CF551B6784BB004A6ADE /* HomeUsedCarSearchCell.xib */,
 			);
 			path = DemoHomePage;
 			sourceTree = "<group>";
@@ -269,8 +292,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF86CF5B1B6787F6004A6ADE /* back@2x.png in Resources */,
 				E5CED68C1B65F3EA00B45E4E /* 5543680-round-red-button-christmas-bell-icon.jpg in Resources */,
 				E5CED6931B660D2E00B45E4E /* McGheean583.jpg in Resources */,
+				BF86CF5A1B6787F6004A6ADE /* back.png in Resources */,
 				E5CED6831B65ECCB00B45E4E /* DiscoverCarsTableCell.xib in Resources */,
 				E5CED6A91B66404000B45E4E /* NewsCollectionCell.xib in Resources */,
 				E5CED6B21B66642C00B45E4E /* SearchNewCarTableCell.xib in Resources */,
@@ -278,9 +303,13 @@
 				E519ACDC1B6276DE0058D4AF /* HomePage.xib in Resources */,
 				E5CED6A41B6632A400B45E4E /* LatestUpdatesTableViewCell.xib in Resources */,
 				E5C2D3541B62518900887341 /* LaunchScreen.xib in Resources */,
+				BF86CF521B675EA0004A6ADE /* logo@2x.png in Resources */,
+				BF86CF571B6784BB004A6ADE /* HomeUsedCarSearchCell.xib in Resources */,
 				E5CED6AD1B66621400B45E4E /* navigate-right.png in Resources */,
 				E5C2D3511B62518900887341 /* Images.xcassets in Resources */,
+				BF86CF511B675EA0004A6ADE /* logo.png in Resources */,
 				E5CED6911B660C8F00B45E4E /* GetFinalPriceTableCell.xib in Resources */,
+				BF86CF4E1B675E25004A6ADE /* NavigationBar.png in Resources */,
 				E5CED6881B65EF4F00B45E4E /* HomeCarsCollectionCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,6 +332,7 @@
 				E5CED69C1B662D5C00B45E4E /* UITextField+Padding.m in Sources */,
 				E5C2D3491B62518900887341 /* AppDelegate.m in Sources */,
 				E5CED6A31B6632A400B45E4E /* LatestUpdatesTableViewCell.m in Sources */,
+				BF86CF561B6784BB004A6ADE /* HomeUsedCarSearchCell.m in Sources */,
 				E5CED6A81B66404000B45E4E /* NewsCollectionCell.m in Sources */,
 				E5CED6961B66115B00B45E4E /* CellMetaData.m in Sources */,
 				E5CED6901B660C8F00B45E4E /* GetFinalPriceTableCell.m in Sources */,

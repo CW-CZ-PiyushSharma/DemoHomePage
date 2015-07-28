@@ -12,5 +12,6 @@
 
 @property (weak, nonatomic) IBOutlet UITableView *homePageTableView;
 @property (weak, nonatomic) IBOutlet UIScrollView *homeScrollView;
+@property (weak, nonatomic,getter=aNewUsedSegControl) IBOutlet UISegmentedControl *newUsedSegControl;
 
 @end

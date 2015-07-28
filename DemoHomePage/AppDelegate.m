@@ -20,7 +20,12 @@
     // Override point for customization after application launch.
     _window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     HomePage *homePage = [[HomePage alloc] initWithNibName:@"HomePage" bundle:nil];
-    _window.rootViewController = homePage;
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:homePage];
+    [[UINavigationBar appearance] setBackgroundImage:[UIImage imageNamed:@"NavigationBar.png"] forBarMetrics:UIBarMetricsDefault];
+  //  [[UINavigationBar appearance] setBackgroundColor:[UIColor blackColor]];
+  //  [[UINavigationBar appearance] setTranslucent:NO];
+  //  [[UINavigationBar appearance]setTintColor:[UIColor whiteColor]];
+    _window.rootViewController = navController;
     [_window makeKeyAndVisible];
     
     return YES;
