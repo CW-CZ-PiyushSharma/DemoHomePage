@@ -8,13 +8,14 @@
 
 #import "GetFinalPriceTableCell.h"
 #import "UITextField+Padding.h"
+#import "UIView+UIEnhancements.h"
 
 @implementation GetFinalPriceTableCell
 @synthesize finalPriceButton = _finalPriceButton, privateLabel = _privateLabel;
 
 - (void)awakeFromNib {
     // Initialization code
-    [_privateLabel sizeToFit];
+//    [_privateLabel sizeToFit];
 }
 
 -(instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier{

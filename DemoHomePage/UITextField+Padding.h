@@ -12,7 +12,5 @@
 
 -(void) setLeftPadding:(int) paddingValue;
 -(void) setRightPadding:(int) paddingValue;
--(void) setCornerRadius:(int) radius;
-- (void)setBorderForColor:(UIColor *)color
-                    width:(float)width;
+
 @end

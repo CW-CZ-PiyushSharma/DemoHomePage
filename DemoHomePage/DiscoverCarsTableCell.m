@@ -45,7 +45,7 @@ static NSString *discoverCarsCollectionIdentifier = @"homePageCars";
     
 }
 -(CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath{
-    return CGSizeMake(self.frame.size.width - 35, _carsCollectionView.frame.size.height - 20);
+    return CGSizeMake(self.frame.size.width - 36, _carsCollectionView.frame.size.height - 40);
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {

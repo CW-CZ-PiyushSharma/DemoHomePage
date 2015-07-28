@@ -11,5 +11,6 @@
 @interface SearchNewCarTableCell : UITableViewCell <UITextFieldDelegate>
 
 @property (weak, nonatomic) IBOutlet UITextField *carTextField;
+@property (weak, nonatomic) IBOutlet UIButton *searchButton;
 
 @end
