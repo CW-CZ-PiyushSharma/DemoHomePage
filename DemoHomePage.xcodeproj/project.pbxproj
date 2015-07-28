@@ -15,6 +15,7 @@
 		E5C2D3541B62518900887341 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5C2D3521B62518900887341 /* LaunchScreen.xib */; };
 		E5C2D3601B62518A00887341 /* DemoHomePageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C2D35F1B62518A00887341 /* DemoHomePageTests.m */; };
 		E5CBA2161B675EE000A40705 /* UIView+UIEnhancements.m in Sources */ = {isa = PBXBuildFile; fileRef = E5CBA2151B675EE000A40705 /* UIView+UIEnhancements.m */; };
+		E5CBA2181B67A3E900A40705 /* open-sans in Resources */ = {isa = PBXBuildFile; fileRef = E5CBA2171B67A3E900A40705 /* open-sans */; };
 		E5CED6821B65ECCB00B45E4E /* DiscoverCarsTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E5CED6801B65ECCB00B45E4E /* DiscoverCarsTableCell.m */; };
 		E5CED6831B65ECCB00B45E4E /* DiscoverCarsTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5CED6811B65ECCB00B45E4E /* DiscoverCarsTableCell.xib */; };
 		E5CED6871B65EF4F00B45E4E /* HomeCarsCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E5CED6851B65EF4F00B45E4E /* HomeCarsCollectionCell.m */; };
@@ -61,6 +62,7 @@
 		E5C2D35F1B62518A00887341 /* DemoHomePageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoHomePageTests.m; sourceTree = "<group>"; };
 		E5CBA2141B675EE000A40705 /* UIView+UIEnhancements.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+UIEnhancements.h"; sourceTree = "<group>"; };
 		E5CBA2151B675EE000A40705 /* UIView+UIEnhancements.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+UIEnhancements.m"; sourceTree = "<group>"; };
+		E5CBA2171B67A3E900A40705 /* open-sans */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "open-sans"; sourceTree = "<group>"; };
 		E5CED67F1B65ECCB00B45E4E /* DiscoverCarsTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoverCarsTableCell.h; sourceTree = "<group>"; };
 		E5CED6801B65ECCB00B45E4E /* DiscoverCarsTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoverCarsTableCell.m; sourceTree = "<group>"; };
 		E5CED6811B65ECCB00B45E4E /* DiscoverCarsTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DiscoverCarsTableCell.xib; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 		E5C2D3421B62518900887341 /* DemoHomePage */ = {
 			isa = PBXGroup;
 			children = (
+				E5CBA2171B67A3E900A40705 /* open-sans */,
 				E5CED6AC1B66621400B45E4E /* navigate-right.png */,
 				E5CED6921B660D2E00B45E4E /* McGheean583.jpg */,
 				E5CED68B1B65F3EA00B45E4E /* 5543680-round-red-button-christmas-bell-icon.jpg */,
@@ -287,6 +290,7 @@
 				E5C2D3511B62518900887341 /* Images.xcassets in Resources */,
 				E5CED6911B660C8F00B45E4E /* GetFinalPriceTableCell.xib in Resources */,
 				E5CED6881B65EF4F00B45E4E /* HomeCarsCollectionCell.xib in Resources */,
+				E5CBA2181B67A3E900A40705 /* open-sans in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

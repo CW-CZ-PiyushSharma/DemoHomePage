@@ -56,7 +56,7 @@ static NSString *latesUpdatesCellIdentifier = @"latestUpdates";
     CellMetaData *cellData = [[CellMetaData alloc] init];
     cellData.identifier = newCarIdentifier;
     cellData.cellClass = [SearchNewCarTableCell class];
-    cellData.height = 138;
+    cellData.height = 148;
     cellData.cellType = NEWCAR;
     [cellMetaDataArray addObject:cellData];
     
@@ -96,6 +96,7 @@ static NSString *latesUpdatesCellIdentifier = @"latestUpdates";
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
     return cell;
 }
+
 
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
     CellMetaData *cellData = [cellMetaDataArray objectAtIndex:indexPath.row];
