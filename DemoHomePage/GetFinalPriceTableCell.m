@@ -15,7 +15,7 @@
 
 - (void)awakeFromNib {
     // Initialization code
-    [_privateLabel sizeToFit];
+//    [_privateLabel sizeToFit];
 }
 
 -(instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier{

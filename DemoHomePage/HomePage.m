@@ -41,8 +41,10 @@ static NSString *latesUpdatesCellIdentifier = @"latestUpdates";
 }
 
 -(void)viewDidAppear:(BOOL)animated{
+    [super viewDidAppear:animated];
     CGRect frame = _homePageTableView.frame;
     frame.size = _homePageTableView.contentSize;
+    frame.size.height = frame.size.height + 10;
     _homePageTableView.frame = frame;
     _homeScrollView.contentSize = CGSizeMake(self.view.frame.size.width, _homePageTableView.frame.origin.y + _homePageTableView.frame.size.height);
     
@@ -54,28 +56,28 @@ static NSString *latesUpdatesCellIdentifier = @"latestUpdates";
     CellMetaData *cellData = [[CellMetaData alloc] init];
     cellData.identifier = newCarIdentifier;
     cellData.cellClass = [SearchNewCarTableCell class];
-    cellData.height = 150;
+    cellData.height = 138;
     cellData.cellType = NEWCAR;
     [cellMetaDataArray addObject:cellData];
     
     cellData = [[CellMetaData alloc] init];
     cellData.identifier = discoverIdentifier;
     cellData.cellClass = [DiscoverCarsTableCell class];
-    cellData.height = 425;
+    cellData.height = 398;
     cellData.cellType = NEWCAR;
     [cellMetaDataArray addObject:cellData];
     
     cellData = [[CellMetaData alloc] init];
     cellData.identifier = getFinalPriceIdentifier;
     cellData.cellClass = [GetFinalPriceTableCell class];
-    cellData.height = 300;
+    cellData.height = 220;
     cellData.cellType = NEWCAR;
     [cellMetaDataArray addObject:cellData];
     
     cellData = [[CellMetaData alloc] init];
     cellData.identifier = latesUpdatesCellIdentifier;
     cellData.cellClass = [LatestUpdatesTableViewCell class];
-    cellData.height = 400;
+    cellData.height = 425;
     cellData.cellType = NEWCAR;
     [cellMetaDataArray addObject:cellData];
 }
