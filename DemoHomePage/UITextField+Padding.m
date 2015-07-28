@@ -24,16 +24,4 @@
     self.rightViewMode = UITextFieldViewModeAlways;
 }
 
--(void) setCornerRadius:(int) radius
-{
-    self.layer.cornerRadius = radius;
-    self.layer.masksToBounds = YES;
-}
-
--(void) setBorderForColor:(UIColor *)color
-                    width:(float)width
-{
-    self.layer.borderColor = [color CGColor];
-    self.layer.borderWidth = width;
-}
 @end

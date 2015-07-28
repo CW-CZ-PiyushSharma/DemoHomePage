@@ -8,6 +8,7 @@
 
 #import "GetFinalPriceTableCell.h"
 #import "UITextField+Padding.h"
+#import "UIView+UIEnhancements.h"
 
 @implementation GetFinalPriceTableCell
 @synthesize finalPriceButton = _finalPriceButton, privateLabel = _privateLabel;
